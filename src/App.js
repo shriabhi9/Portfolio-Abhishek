@@ -5,10 +5,11 @@ import { Connects } from './Pages/Connects';
 import { Navbar } from './Components/Navbar';
 import { About } from './Pages/About';
 
+
 export default function app(){
   return (
 
-    <div className='w-screen overflow-x-hidden'>
+    <div className='w-screen overflow-x-hidden first-color'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Main/>}/>
