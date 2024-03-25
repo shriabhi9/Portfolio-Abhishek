@@ -6,10 +6,12 @@ import { Navbar } from './Components/Navbar';
 import { About } from './Pages/About';
 
 
-export default function app(){
-  return (
 
-    <div className='w-screen overflow-x-hidden first-color'>
+export default function App(){
+  
+  
+  return (    
+    <div className={"w-screen h-screen overflow-x-hidden first-color"}>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Main/>}/>
@@ -18,6 +20,5 @@ export default function app(){
         <Route path='/Connects' element={<Connects/>}></Route>
       </Routes>
     </div>
-    
   );
 }

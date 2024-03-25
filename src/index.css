@@ -8,17 +8,22 @@
     font-style: normal;
 }
 .first-color { 
-	background: #3c4245; 
+	background: #222831; 
 }
 	
 .second-color { 
-	background: #5f6769; 
+	background: #393e46; 
 }
 
 .third-color { 
-	background: #719192; 
+	background: #f96d00; 
 }
 
 .fourth-color { 
-	background: #dfcdc3; 
+	background: #f2f2f2; 
+}
+
+.white-mode{
+	background: #fff;
+	color: black;
 }
