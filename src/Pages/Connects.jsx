@@ -1,36 +1,86 @@
 import React from 'react'
-import "./Connects.css"
+import { GoArrowDownRight } from "react-icons/go";
 export const Connects = () => {
   return (
-    <div className='relative overflow-hidden w-[full] flex item-center justify-center p-[4rem]'>
-      <div className='h-[500px] w-[600px] flex flex-col items-end rounded-xl second-color shadow-2xl px-14 gap-2'>
-        <h2 className='text-[40px] font-bold pt-8 pb-2 text-white'>GET IN TOUCH</h2>
-        <div className='w-full flex flex-col gap-8 py-3'>
-          <input 
-            className='fourth-color rounded-md px-2 py-1 outline-none'
-            type="text"
-            name=''
-            placeholder='Enter your name'
-            />
-          <input 
-            className='fourth-color rounded-md px-2 py-1 outline-none'
-            type="email"
-            name=''
-            placeholder='Enter your email'
-            />
-          <textarea 
-            className='fourth-color rounded-md px-2 py-1 outline-none resize-none'
-            rows="4"
-            cols="30"
-            type="text"
-            name=''
-            placeholder='Leave your message here'
-            />
+      <div className='relative overflow-hidden w-[full] flex justify-center p-[4rem]'>
+        <div className='w-[80%] flex flex-row items-start justify-center gap-[6rem]'>
+          {/* left section */}
+          <div className='w-[70%]'>
+            <h1 className='text-white text-[5rem] mb-4'>
+              Let's start a 
+              project together
+            </h1>
+
+            <form className='flex flex-col gap-8 pt-[4rem] mt-4 mb-4'>
+              <label className="flex flex-col items-start gap-4">
+                <p className="text-white text-[2rem]">What's your name?</p>
+                <input 
+                  className="text-white bg-transparent outline-none text-[2rem] mx:text-[8px]"
+                  type="text"
+                  placeholder='John Doe' 
+                />
+              </label>
+              <div className='w-full h-[2px] second-color mt-4 mb-4'></div>
+              <label className="flex flex-col items-start gap-4">
+                <p className="text-white text-[2rem]">What's your email?</p>
+                <input 
+                  className="text-white bg-transparent outline-none text-[2rem]"
+                  type="text"
+                  placeholder='john@gmail.com' 
+                />
+              </label>
+              <div className='w-full h-[2px] second-color mt-4 mb-4'></div>
+              <label className="flex flex-col items-start gap-4">
+                <p className="text-white text-[2rem]">Your message</p>
+                <input 
+                  className="text-white bg-transparent outline-none text-[2rem]"
+                  type="text"
+                  placeholder='Hi Abhishek, can we...' 
+                />
+              </label>
+            </form>
+            <button type='submit' className=' rounded-md px-8 py-2 third-color text-xl duration-200 transition-all hover:text-[black] hover:bg-[#f2f2f2] text-white hover:scale-95 mt-12 mb-4'>
+              Submit
+            </button>
           </div>
-          <button className='third-color w-[30%] h-[8%] rounded-md text-white transition-all duration-200 hover:bg-[#f2f2f2] hover:text-black hover:scale-95'>
-            <span className=''>Connect</span>
-          </button>
+          {/* right section */}
+          <div className='w-[30%] flex flex-col gap-8'>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <GoArrowDownRight className='text-white text-[40px]'/>
+            </div>
+            <div className='flex flex-col items-start gap-2'>
+              <p className='text-[14px] font-bold text-[#5c626d]'>CONTACT DETAILS</p>
+              <button className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 text-white'>
+                <p>shrivastavaabhishek929@gmail.com</p>
+                <div className='w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 transition-all duration-300'/>
+              </button>
+              <button className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 text-white'>
+                <p>+91 7024744625</p>
+                <div className='w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 transition-all duration-300'/>
+              </button>
+            </div>
+            <div className='flex flex-col items-start gap-2'>
+              <p className='text-[14px] font-bold text-[#5c626d] '>SOCIALS</p>
+              <button className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 text-white'>
+                <p>LinkedIn</p>
+                <div className='w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 transition-all duration-300'/>
+              </button>
+              <button className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 text-white'>
+                <p>Twitter</p>
+                <div className='w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 transition-all duration-300'/>
+              </button>
+            </div>
+          </div>
+        </div>
+       
+
+        <footer>
+
+        </footer>
       </div>
-    </div>
+      
   )
 }

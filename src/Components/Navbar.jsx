@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-export const Navbar = ({divRef}) => {
+export const Navbar = () => {
   return (
     <div 
         className='w-[100%] flex flex-wrap items-center justify-between text-white first-color text-sm pl-6 pr-6 pt-4 pb-3'>

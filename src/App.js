@@ -4,14 +4,13 @@ import { Work } from './Pages/Work';
 import { Connects } from './Pages/Connects';
 import { Navbar } from './Components/Navbar';
 import { About } from './Pages/About';
-
-
+import "./App.css"
 
 export default function App(){
   
   
   return (    
-    <div className={"w-screen h-screen overflow-x-hidden first-color"}>
+    <div className={"w-screen h-screen overflow-x-hidden first-color hide-scrollbar"}>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Main/>}/>
