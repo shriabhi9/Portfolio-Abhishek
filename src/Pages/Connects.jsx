@@ -3,14 +3,13 @@ import { GoArrowDownRight } from "react-icons/go";
 export const Connects = () => {
   return (
       <div className='relative overflow-hidden w-[full] flex justify-center p-[4rem]'>
-        <div className='w-[80%] flex flex-row items-start justify-center gap-[6rem]'>
+        <div className='w-[80%] flex items-start justify-start max-md:flex-wrap gap-1'>
           {/* left section */}
           <div className='w-[70%]'>
-            <h1 className='text-white text-[5rem] mb-4'>
+            <h1 className='text-white text-[5rem] mb-4 pr-14'>
               Let's start a 
               project together
             </h1>
-
             <form className='flex flex-col gap-8 pt-[4rem] mt-4 mb-4'>
               <label className="flex flex-col items-start gap-4">
                 <p className="text-white text-[2rem]">What's your name?</p>
@@ -44,7 +43,7 @@ export const Connects = () => {
             </button>
           </div>
           {/* right section */}
-          <div className='w-[30%] flex flex-col gap-8'>
+          <div className='w-[30%] flex flex-col gap-8 '>
             <div>
               <img src="" alt="" />
             </div>
@@ -57,8 +56,8 @@ export const Connects = () => {
                 <p>shrivastavaabhishek929@gmail.com</p>
                 <div className='w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 transition-all duration-300'/>
               </button>
-              <button className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 text-white'>
-                <p>+91 7024744625</p>
+              <button className='flex flex-col items-center justify-start transition-all duration-300 hover:scale-95 group gap-1 text-white'>
+                <p>+917024744625</p>
                 <div className='w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 transition-all duration-300'/>
               </button>
             </div>
