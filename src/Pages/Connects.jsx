@@ -2,11 +2,11 @@ import React from 'react'
 import { GoArrowDownRight } from "react-icons/go";
 export const Connects = () => {
   return (
-      <div className='relative overflow-hidden w-[full] flex justify-center p-[4rem]'>
+      <div className='relative overflow-hidden w-[full] flex justify-center p-[4rem] first-color'>
         <div className='w-[80%] flex items-start justify-start max-md:flex-wrap gap-1'>
           {/* left section */}
           <div className='w-[70%]'>
-            <h1 className='text-white text-[5rem] mb-4 pr-14'>
+            <h1 className='text-white text-[5rem] mb-4 pr-[]'>
               Let's start a 
               project together
             </h1>
@@ -69,6 +69,10 @@ export const Connects = () => {
               </button>
               <button className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 text-white'>
                 <p>Twitter</p>
+                <div className='w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 transition-all duration-300'/>
+              </button>
+              <button className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 text-white'>
+                <p>Github</p>
                 <div className='w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 transition-all duration-300'/>
               </button>
             </div>

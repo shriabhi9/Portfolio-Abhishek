@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export const Navbar = () => {
   return (
     <div 
-        className='w-[100%] flex flex-wrap items-center justify-between text-white first-color text-sm pl-6 pr-6 pt-4 pb-3'>
+        className='w-[100%] flex flex-wrap items-center justify-between first-color text-white text-sm pl-6 pr-6 pt-4 pb-3'>
         <Link to={"/"}>
             <button
             className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 px-4 py-2'>
