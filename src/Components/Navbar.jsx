@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
   return (
-    <div 
-        className='w-[100%] flex flex-wrap items-center justify-between first-color text-white text-sm pl-6 pr-6 pt-4 pb-3'>
+    <nav
+        className='w-[100%] flex flex-wrap items-center justify-between first-color text-white text-sm pl-14 pr-14 pt-4 pb-3'>
         <Link to={"/"}>
             <button
             className='flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 px-4 py-2'>
@@ -31,6 +31,6 @@ export const Navbar = () => {
                 </button>
             </Link>
         </div>
-    </div>
+    </nav>
   )
 }
