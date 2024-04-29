@@ -4,7 +4,7 @@ export const Footer = () =>{
         <footer className="text-[#f2f2f287] py-8 first-color">
             <div className="mx-8">
                 <div className="flex flex-col md:flex-row items-center justify-between">
-                    <div className="text-center md:text-left">
+                    <div className=" md:text-left">
                         <p className="text-lg">Copyright © 2024 My Portfolio. All rights reserved.</p>
                     </div>
                     <ul className="flex justify-center mt-4 md:mt-0">

@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.candal-regular {
-    font-family: "Candal", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+* {
+	font-family: 'Jersey 15', sans-serif;
+	font-weight: 400;
+  	font-style: normal;
 }
 .first-color { 
 	background: #222831; 

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { myImage } from '../Data'
 
 export const About = () => {
   return (
@@ -8,7 +8,7 @@ export const About = () => {
 
       </div>
       <div>
-        <img />
+        <img src={myImage} alt="abhishek" />
       </div>
     </div>
   )
