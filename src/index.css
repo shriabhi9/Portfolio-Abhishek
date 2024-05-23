@@ -1,12 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
-* {
-	font-family: 'Jersey 15', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Macondo&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+	font-family: "Quantico", sans-serif;
 	font-weight: 400;
-  	font-style: normal;
-}
+	font-style: normal;
+  }
+  
+  .quantico-regular-italic {
+	font-family: "Quantico", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  
+  .quantico-bold {
+	font-family: "Quantico", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  .quantico-bold-italic {
+	font-family: "Quantico", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+  }
 .first-color { 
 	background: #222831; 
 }

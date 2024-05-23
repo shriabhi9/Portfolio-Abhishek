@@ -5,7 +5,7 @@ export const Footer = () =>{
             <div className="mx-8">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <div className=" md:text-left text-center">
-                        <p className="text-lg">Copyright © 2024 My Portfolio. All rights reserved.</p>
+                        <p className="md:text-xs text-[10px]">Copyright © 2024 My Portfolio. All rights reserved.</p>
                     </div>
                     <ul className="flex justify-center mt-4 md:mt-0">
                         <li className="mr-6">
