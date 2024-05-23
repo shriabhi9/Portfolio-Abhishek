@@ -24,7 +24,7 @@ export const Hero = () => {
         </div>
         {/* introduction */}
         <div>
-          <p className="text-[#f2f2f287] md:text-xs text-[9px] md:w-[20em]">
+          <p className="text-[#f2f2f287] md:text-xs text-[9px] md:w-[30em] w-full">
             {intro2}
           </p>
         </div>
