@@ -1,10 +1,10 @@
 import { FaLinkedin, FaTwitterSquare,FaGithub } from "react-icons/fa";
 export const Footer = () =>{
     return (
-        <footer className="text-[#f2f2f287] py-8 first-color">
+        <footer className="text-[#f2f2f287] py-8 md:px-20 px-10 first-color">
             <div className="mx-8">
                 <div className="flex flex-col md:flex-row items-center justify-between">
-                    <div className=" md:text-left">
+                    <div className=" md:text-left text-center">
                         <p className="text-lg">Copyright © 2024 My Portfolio. All rights reserved.</p>
                     </div>
                     <ul className="flex justify-center mt-4 md:mt-0">

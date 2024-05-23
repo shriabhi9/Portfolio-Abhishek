@@ -10,7 +10,7 @@ export default function App(){
   
   
   return (    
-    <div className="w-screen h-screen overflow-x-hidden hide-scrollbar">
+    <div className="w-screen h-screen overflow-x-hidden hide-scrollbar first-color">
       <Navbar/>
       <Routes>
         <Route path='/' element={<Main/>}/>
