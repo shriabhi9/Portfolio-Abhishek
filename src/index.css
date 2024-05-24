@@ -1,47 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Macondo&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-*{
-	font-family: "Quantico", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-  }
-  
-  .quantico-regular-italic {
-	font-family: "Quantico", sans-serif;
-	font-weight: 400;
-	font-style: italic;
-  }
-  
-  .quantico-bold {
-	font-family: "Quantico", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-  }
-  
-  .quantico-bold-italic {
-	font-family: "Quantico", sans-serif;
-	font-weight: 700;
-	font-style: italic;
-  }
-.first-color { 
-	background: #222831; 
-}
-	
-.second-color { 
-	background: #393e46; 
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Macondo&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.third-color { 
-	background: #f96d00; 
+.quantico-regular-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
-.fourth-color { 
-	background: #f2f2f2; 
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.white-mode{
-	background: #fff;
-	color: black;
+.quantico-bold-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
+.first-color {
+  background: #222831;
+}
+
+.second-color {
+  background: #393e46;
+}
+
+.third-color {
+  background: #f96d00;
+}
+
+.fourth-color {
+  background: #f2f2f2;
+}
+
+.white-mode {
+  background: #fff;
+  color: black;
+}
+
+.light-mode {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #222831;
+  color: #f2f2f2;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(50, 50, 50);
+    color: rgb(250, 250, 250);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: rgb(250, 250, 250);
+    color: rgb(50, 50, 50);
+  }
+} */

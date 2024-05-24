@@ -1,36 +1,31 @@
-import { intro, intro2, myImage } from "../Data";
+import { intro, intro2 } from "../Data";
 
 export const Hero = () => {
   return (
-    <section className="flex justify-center item-center pt-0 md:pt-14 flex-col first-color gap-4 md:px-20 px-10 flex-wrap">
-      <div className="flex justify-between items-center text-[#f2f2f287] flex-wrap gap-4">
+    <section className="flex flex-col justify-center item-center gap-4 md:px-20 px-10 flex-wrap h-[100%]">
+      <div className="flex justify-between items-center flex-wrap">
         <p className="md:w-[22%] w-[230px] md:text-xs text-[10px]">
           MASTER OF DIGITAL REALMS, SCULPTING CODE INTO CAPTIVATING WEB
           EXPERIENCES WITH FINESSE.
         </p>
         <p className="md:text-xs text-[10px]">SCROLL TO EXPLORE.</p>
       </div>
-      <div className="md:block flex flex-col md:py-8 py-4">
-        <p className="text-[#f2f2f2] md:text-[8rem] text-4xl transition-all duration-500 font font-bold">
-          WEB DEVELOPER.
-        </p>
-      </div>
+      <p className="md:text-9xl text-3xl font-bold">WEB DEVELOPER</p>
 
-      <p className="text-[#f2f2f287] md:text-[0.9rem] text-xs">{intro}</p>
-      <hr className="text-[#f2f2f287]" />
+      <p className=" md:text-xl text-xs">{intro}</p>
+      <hr className="" />
+
       <div className="flex justify-between md:flex-row flex-col gap-4">
         <div>
-          <p className="text-[#f2f2f287] md:text-xs text-[10px]">Hey.</p>
+          <p className=" md:text-xs text-[10px]">Hey.</p>
         </div>
         {/* introduction */}
         <div>
-          <p className="text-[#f2f2f287] md:text-xs text-[9px] md:w-[30em] w-full">
-            {intro2}
-          </p>
+          <p className=" md:text-xs text-[9px] md:w-[30em] w-full">{intro2}</p>
         </div>
         {/* links */}
         <div>
-          <div className="text-[#f2f2f287] md:text-xs text-[10px]">
+          <div className=" md:text-xs text-[10px]">
             <div className="flex flex-col gap-2 ">
               <button
                 className="flex flex-col md:items-center items-start transition-all duration-300 hover:scale-95 group gap-1 "
