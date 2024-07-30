@@ -9,3 +9,7 @@ export const intro2 = `STEP INTO A REALM OF DIGITAL ENCHANTMENT WHERE I WEAVE WE
 FROM CRAFTING CAPTIVATING DESIGNS TO CODING WITH FINESSE, 
 I BREATHE LIFE INTO YOUR ONLINE PRESENCE. LET ME GUIDE YOU THROUGH 
 THE MAZE OF TECHNOLOGY, WHERE EVERY PIXEL TELLS A STORY OF INNOVATION AND ELEGANCE.`;
+
+export const proj1 = "https://i.ibb.co/1npZ6st/Motelo-Proj.png";
+export const proj2 = "https://i.ibb.co/Tq5Sq82/Weather-Proj.png";
+export const proj3 = "https://i.ibb.co/LZx3N8m/Password-Gen-Proj.png"; 

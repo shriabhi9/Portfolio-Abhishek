@@ -8,6 +8,26 @@
   font-style: normal;
 }
 
+.Motelo{
+  background-image: url("../public/MoteloProj.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Weather{
+  background-image: url("../public/WeatherProj.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Password{
+  background-image: url("../public/PasswordGenProj.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .quantico-regular-italic {
   font-family: "Quantico", sans-serif;
   font-weight: 400;
