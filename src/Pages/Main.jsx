@@ -7,7 +7,7 @@ import Project from "../Components/Project";
 
 export const Main = () => {
   return (
-    <div className="h-[100%]">
+    <div className="h-[100%] scroll-smooth">
       <Navbar />
       <Location />
       <Hero></Hero>

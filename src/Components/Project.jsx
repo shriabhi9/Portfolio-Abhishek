@@ -8,7 +8,7 @@ const Project = () => {
       <div className="w-[100%]">
         <div className="w-full">
           <h2 className="md:text-xl text-xs mb-2 px-10">MOTELO</h2>
-          <div className="md:w-[1080px] md:h-[530px] w-full h-[200px] md:px-10 px-2">
+          <div className="md:w-[1080px] md:h-[530px] w-full h-[192px] md:px-10 px-6">
             <div className="Motelo h-[100%] w-[100%] rounded-md hover:scale-95 duration-200 group relative">
               <div className="absolute h-full w-full rounded-md bg-black opacity-10 hover:opacity-30 z-[1] duration-200"></div>
               <div className="">
@@ -41,7 +41,7 @@ const Project = () => {
       <div className="w-[100%]">
         <div className="w-full">
           <h2 className="md:text-xl text-xs mb-2 px-10">WEATHER APPLICATION</h2>
-          <div className="md:w-[1080px] md:h-[530px] w-full h-[200px] md:px-10 px-2">
+          <div className="md:w-[1080px] md:h-[530px] w-full h-[192px] md:px-10 px-6">
             <div className="Weather h-[100%] w-[100%] rounded-md hover:scale-95 duration-200 group relative">
               <div className="absolute h-full w-full rounded-md bg-black opacity-10 hover:opacity-30 z-[1] duration-200"></div>
               <div className="">
@@ -75,7 +75,7 @@ const Project = () => {
       <div className="w-[100%]">
         <div className="w-full">
           <h2 className="md:text-xl text-xs mb-2 px-10">PASSWORD GEN</h2>
-          <div className="md:w-[1080px] md:h-[530px] w-full h-[200px] md:px-10 px-2">
+          <div className="md:w-[1080px] md:h-[530px] w-full h-[192px] md:px-10 px-6">
             <div className="Password h-[100%] w-[100%] rounded-md hover:scale-95 duration-200 group relative">
               <div className="absolute h-full w-full rounded-md bg-black opacity-10 hover:opacity-30 z-[1] duration-200"></div>
               <div className="">
