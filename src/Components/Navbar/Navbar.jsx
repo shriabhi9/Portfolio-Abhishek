@@ -5,13 +5,13 @@ import { MdOutlineDarkMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
 
 export const Navbar = () => {
-  const [theme, setTheme] = useState("light-mode");
+  const [theme, setTheme] = useState("dark-mode");
 
   const toggleTheme = () => {
-    if (theme === "light-mode") {
-      setTheme("dark-mode");
-    } else {
+    if (theme === "dark-mode") {
       setTheme("light-mode");
+    } else {
+      setTheme("dark-mode");
     }
   };
 
