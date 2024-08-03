@@ -22,7 +22,7 @@ export const Navbar = () => {
   return (
     <div>
       <DropMenu toggleTheme={toggleTheme} />
-      <nav className="w-[100%] flex flex-wrap justify-around items-center md:text-[16px] text-[14px]  pt-4 pb-3 md:px-20 px-10 md:scale-100 scale-0">
+      <nav className="w-[100%] flex flex-wrap justify-around items-center md:text-[16px] text-[14px] pt-4 md:px-20 px-10 md:scale-100 scale-0">
         <Link to={"/"}>
           <button className="flex flex-col items-center transition-all duration-300 hover:scale-95 group gap-1 px-4 py-2">
             <span>@Abhishek</span>

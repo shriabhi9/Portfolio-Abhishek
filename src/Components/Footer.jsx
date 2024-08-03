@@ -1,7 +1,7 @@
 import { FaLinkedin, FaTwitterSquare,FaGithub } from "react-icons/fa";
 export const Footer = () =>{
     return (
-        <footer className=" py-8 md:px-20 px-10">
+        <footer className="py-8 md:px-20 px-10">
             <div className="mx-8">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <div className=" md:text-left text-center">

@@ -1,6 +1,7 @@
 import React from "react";
 import { myImage } from "../Data";
 import { Navbar } from "../Components/Navbar/Navbar";
+import { Footer } from "../Components/Footer";
 
 export const About = () => {
   return (
@@ -12,6 +13,7 @@ export const About = () => {
           <img src={myImage} alt="abhishek" />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import { intro, intro2 } from "../Data";
 
 export const Hero = () => {
   return (
-    <section className="flex flex-col justify-center item-center gap-4 md:px-20 px-10 flex-wrap h-[100%]">
+    <section className="flex flex-col justify-center item-center gap-4 md:px-20 px-10 flex-wrap md:py-10 py-20">
       <div className="flex justify-between items-center flex-wrap">
         <p className="md:w-[22%] w-[230px] md:text-xs text-[10px]">
           MASTER OF DIGITAL REALMS, SCULPTING CODE INTO CAPTIVATING WEB

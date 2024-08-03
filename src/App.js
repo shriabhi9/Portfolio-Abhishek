@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <div
-      className={`w-screen h-screen overflow-x-hidden hide-scrollbar`}
+      className={`w-[100vw] h-[100vh] overflow-x-hidden hide-scrollbar`}
     >
       <Routes>
         <Route path="/" element={<Main />} />

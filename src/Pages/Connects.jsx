@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GoArrowDownRight } from "react-icons/go";
 import { Navbar } from "../Components/Navbar/Navbar";
+import { Footer } from "../Components/Footer";
 
 
 export const Connects = () => {
@@ -160,7 +161,7 @@ export const Connects = () => {
           </div>
         </div>
 
-        <footer></footer>
+        <Footer></Footer>
       </div>
     </div>
   );
