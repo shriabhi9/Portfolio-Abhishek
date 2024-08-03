@@ -161,8 +161,8 @@ export const Connects = () => {
           </div>
         </div>
 
-        <Footer></Footer>
       </div>
+        <Footer></Footer>
     </div>
   );
 };
