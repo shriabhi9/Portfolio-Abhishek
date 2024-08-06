@@ -11,8 +11,11 @@ export const Main = () => {
       <Navbar />
       <Location />
       <Hero></Hero>
-      <Project/>
-      
+      <div className="pt-8">
+        <h1 className="md:text-4xl text-[20px] text-center">Projects</h1>
+        <Project />
+      </div>
+
       <Footer></Footer>
     </div>
   );

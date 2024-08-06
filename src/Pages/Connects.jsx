@@ -92,7 +92,7 @@ export const Connects = () => {
             </form >
             <button
               type="submit"
-              className=" rounded-md md:px-8 md:py-2 px-6 py-1 third-color text-xl hover:text-[black] hover:bg-[#f2f2f2]  hover:scale-95 mt-12 mb-4"
+              className=" rounded-md md:px-8 md:py-2 px-6 py-1 third-color text-xl hover:text-[black] hover:bg-[#f2f2f2] duration-200 hover:scale-95 mt-12 mb-4"
             >
               Submit
             </button>
@@ -109,25 +109,25 @@ export const Connects = () => {
               <p className="font-bold text-[#5c626d] md:text-[1rem] text-xs">
                 CONTACT DETAILS
               </p>
-              <button className="flex flex-col items-center hover:scale-95 group gap-1">
+              <button className="flex flex-col items-center hover:scale-95 group gap-1 duration-200">
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBpDltpvjQdpndTLLmcrsxpsXNNdJDSfWvDXkMjcNrvlhbzwRFDLWWjPdfQjVWVpVlwHBzg">
                   <p className="md:text-[1rem] text-[13px]">
                     shrivastavaabhishek929@gmail.com
                   </p>
                 </a>
-                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100" />
+                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 duration-200" />
               </button>
-              <button className="flex flex-col items-center justify-start   hover:scale-95 group gap-1">
+              <button className="flex flex-col items-center justify-start   hover:scale-95 group gap-1 duration-200">
                 <p className="md:text-[1rem] text-xs">+917024744625</p>
-                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100" />
+                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 duration-200" />
               </button>
             </div>
             <div className="flex flex-col items-start gap-2">
-              <p className=" font-bold text-[#5c626d] md:text-[1rem] text-xs">
+              <p className=" font-bold text-[#5c626d] md:text-[1rem] text-xs ">
                 SOCIALS
               </p>
               <button
-                className="flex flex-col items-center   hover:scale-95 group gap-1"
+                className="flex flex-col items-center duration-200  hover:scale-95 group gap-1"
                 onClick={() => {
                   window.open(
                     "https://www.linkedin.com/in/abhishek-shrivastav-7362811bb/",
@@ -136,26 +136,26 @@ export const Connects = () => {
                 }}
               >
                 <p className="md:text-[1rem] text-xs">LinkedIn</p>
-                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100"/>
+                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 duration-200"/>
               </button>
               <button
-                className="flex flex-col items-center   hover:scale-95 group gap-1"
+                className="flex flex-col items-center duration-200  hover:scale-95 group gap-1"
                 onClick={() => {
                   window.open("https://twitter.com/___abhishekk", "_blank");
                 }}
               >
                 <p className="md:text-[1rem] text-xs">Twitter</p>
 
-                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100" />
+                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 duration-200" />
               </button>
               <button
-                className="flex flex-col items-center   hover:scale-95 group gap-1 "
+                className="flex flex-col items-center duration-200 hover:scale-95 group gap-1 "
                 onClick={() => {
                   window.open("https://github.com/shriabhi9", "_blank");
                 }}
               >
                 <p className="md:text-[1rem] text-xs">Github</p>
-                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100" />
+                <div className="w-[calc(100%-4px)] h-[1px] bg-white scale-0 group-hover:scale-100 duration-200" />
               </button>
             </div>
           </div>

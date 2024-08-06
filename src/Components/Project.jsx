@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Project = () => {
   return (
-    <div className="w-[100%] h-[100%] flex items-center md:flex-row flex-col md:gap-1 gap-24 md:py-10 mb-20 md:overflow-x-auto scroll-smooth">
+    <div className="w-[100%] h-[100%] flex items-center md:flex-row flex-col md:gap-1 gap-24 md:py-10 mb-20 md:overflow-x-auto hide-scrollbar" >
       {/* proj1 */}
       <div className="w-[100%]">
         <div className="w-full">
@@ -19,7 +19,7 @@ const Project = () => {
                   </a>
                 </h2>
                 <a href="https://motelo.vercel.app/">
-                  <h2 className="absolute border px-4 py-1 rounded-full z-[2] opacity-0 group-hover:opacity-100 right-10 group-hover:translate-y-[440px] duration-200 text-2xl mb-2 text-white">
+                  <h2 className="hidden md:flex absolute border px-4 py-1 rounded-full z-[2] opacity-0 group-hover:opacity-100 right-10 group-hover:translate-y-[440px] duration-200 text-2xl mb-2 text-white">
                     <div className="flex items-center justify-center text-sm">
                       <p className="">VISIT</p>
                       <GoArrowUpRight className="" />
@@ -52,7 +52,7 @@ const Project = () => {
                   </a>
                 </h2>
                 <a href="/">
-                  <h2 className="absolute border px-4 py-1 rounded-full z-[2] opacity-0 group-hover:opacity-100 right-10 group-hover:translate-y-[440px] duration-200 text-2xl mb-2 text-white">
+                  <h2 className="hidden md:flex absolute border px-4 py-1 rounded-full z-[2] opacity-0 group-hover:opacity-100 right-10 group-hover:translate-y-[440px] duration-200 text-2xl mb-2 text-white">
                     <div className="flex items-center justify-center text-sm">
                       <p className="">NA</p>
                       <GoArrowUpRight className="" />
@@ -86,7 +86,7 @@ const Project = () => {
                   </a>
                 </h2>
                 <a href="/">
-                  <h2 className="absolute border px-4 py-1 rounded-full z-[2] opacity-0 group-hover:opacity-100 right-10 group-hover:translate-y-[440px] duration-200 text-2xl mb-2 text-white">
+                  <h2 className="hidden md:flex absolute border px-4 py-1 rounded-full z-[2] opacity-0 group-hover:opacity-100 right-10 group-hover:translate-y-[440px] duration-200 text-2xl mb-2 text-white">
                     <div className="flex items-center justify-center text-sm">
                       <p className="">NA</p>
                       <GoArrowUpRight className="" />
